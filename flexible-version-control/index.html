@@ -1,0 +1,200 @@
+<!--
+Google IO 2012/2013 HTML5 Slide Template
+
+Authors: Eric Bidelman <ebidel@gmail.com>
+         Luke Mahé <lukem@google.com>
+
+URL: https://code.google.com/p/io-2012-slides
+-->
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">-->
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <!--This one seems to work all the time, but really small on ipad-->
+  <!--<meta name="viewport" content="initial-scale=0.4">-->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="stylesheet" media="all" href="theme/css/default.css">
+  <link rel="stylesheet" media="only screen and (max-device-width: 480px)" href="theme/css/phone.css">
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->
+  <script data-main="js/slides" src="js/require-1.0.8.min.js"></script>
+</head>
+<body style="opacity: 0">
+
+<slides class="layout-widescreen">
+
+<!--   <slide class="logoslide nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/google_developers_logo.png"></span>
+    </article>
+  </slide> -->
+  <!-- Title -->
+  <slide class="title-slide segue nobackground">
+    <aside class="gdbar"><!-- <img src="images/google_developers_icon_128.png"> --></aside>
+    <!-- The content of this hgroup is replaced programmatically through the slide_config.json. -->
+    <hgroup class="auto-fadein">
+      <h1 data-config-title><!-- populated from slide_config.json --></h1>
+      <h2 data-config-subtitle><!-- populated from slide_config.json --></h2>
+      <p data-config-presenter><!-- populated from slide_config.json --></p>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Capabilities</h2>
+      <h3>Summary</h3>
+    </hgroup>
+    <article>
+      <p>What is supported:</p>
+      <ul class="build">
+        <li>Playback Rate - Fast/Slow Motion</li>
+        <li>Loop</li>
+        <li>Preload</li>
+        <li>Poster</li>
+      </ul>
+      <p>Advance:</p>
+      <ul class="build">
+        <li>Interactive Video</li>
+        <li>Video Post Effects - Using HTML5 Canvas</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Capabilities</h2>
+      <h3>Summary</h3>
+    </hgroup>
+    <article>
+      <p>What is not supported:</p>
+      <ul class="build">
+        <li>Adjust volume with javascript on iOS/Android</li>
+        <li>Autoplay/preload on iOS/Android 4+:<br>&nbsp Requires user interaction to confirm playback</li>
+        <li>Play multiple media files simultaneously on iOS (Android unknown)</li>
+        <li>Fast/slow motion on iOS (Android unknown)</li>
+        <li>Play video inline on small screen iOS:<br>&nbsp Video will be forced to play in fullscreen mode</li>
+        <li>Post effects not available for embeded youtube player</li>
+      </ul>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Effects - Video Filters</h2>
+    </hgroup>
+    <article>
+      <iframe data-src="http://www.kaizou.org/demos/video-effects-demo/"></iframe>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Effects - Blow</h2>
+    </hgroup>
+    <article>
+      <iframe data-src="http://craftymind.com/factory/html5video/CanvasVideo.html"></iframe>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Effects - Time Based</h2>
+    </hgroup>
+    <article>
+      <iframe data-src="http://popcornjs.org/"></iframe>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Reference</h2>
+    </hgroup>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Browser Compatibilty</h2>
+    </hgroup>
+    <article>
+      <iframe data-src="http://www.longtailvideo.com/html5/"></iframe>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Browser Compatibilty</h2>
+    </hgroup>
+    <article>
+      <iframe data-src="http://diveintohtml5.info/video.html#what-works"></iframe>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Limitations</h2>
+    </hgroup>
+    <article>
+      <iframe data-src="https://developer.apple.com/library/safari/documentation/AudioVideo/Conceptual/Using_HTML5_Audio_Video/Device-SpecificConsiderations/Device-SpecificConsiderations.html"></iframe>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Limitations</h2>
+    </hgroup>
+    <article>
+      <iframe data-src="http://www.matt-toigo.com/dev/linking_to_youtube_on_mobile_websites"></iframe>
+    </article>
+  </slide>
+
+  <slide>
+    <hgroup>
+      <h2>Effects - Basic Tutorial</h2>
+    </hgroup>
+    <article>
+      <iframe data-src="http://html5doctor.com/video-canvas-magic/"></iframe>
+    </article>
+  </slide>
+
+  <slide class="thank-you-slide segue nobackground">
+    <aside class="gdbar right"><!-- <img src="images/google_developers_icon_128.png"> --></aside>
+    <article class="flexbox vleft auto-fadein">
+      <h2>&lt;Thank You!&gt;</h2>
+      <p>begeeben@gmail.com</p>
+    </article>
+    <p class="auto-fadein" data-config-contact>
+      <!-- populated from slide_config.json -->
+    </p>
+  </slide>
+
+<!--   <slide class="logoslide dark nobackground">
+    <article class="flexbox vcenter">
+      <span><img src="images/google_developers_logo_white.png"></span>
+    </article>
+  </slide> -->
+
+  <slide class="backdrop"></slide>
+
+</slides>
+<!--
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-XXXXXXXX-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+-->
+<!--[if IE]>
+  <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+  <script>CFInstall.check({mode: 'overlay'});</script>
+<![endif]-->
+</body>
+</html>
