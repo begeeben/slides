@@ -1,8 +1,8 @@
 var SLIDE_CONFIG = {
   // Slide settings
   settings: {
-    title: 'HTML5 VIDEO',
-    subtitle: 'Compatibility And Effects',
+    title: 'Flexible Version Control',
+    subtitle: 'With SVN & GIT',
     //eventInfo: {
     //  title: 'Google I/O',
     //  date: '6/x/2013'
