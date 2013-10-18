@@ -1,0 +1,222 @@
+[
+    {
+        "uri": "start.html",
+        "id": "title",
+        "class": "step title",
+        "data": {
+            "x": 0,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "what-yeoman-does.html",
+        "id": "what-yeoman-does",
+        "class": "step",
+        "data": {
+            "x": 1000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "scaffolding.html",
+        "id": "scaffolding",
+        "class": "step",
+        "data": {
+            "x": 2000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "scaffolding-example.html",
+        "id": "scaffolding-example",
+        "class": "step",
+        "data": {
+            "x": 3000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "automation.html",
+        "id": "automation",
+        "class": "step",
+        "data": {
+            "x": 4000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "automation-example.html",
+        "id": "automation-example",
+        "class": "step",
+        "data": {
+            "x": 5000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "package-management.html",
+        "id": "package-management",
+        "class": "step",
+        "data": {
+            "x": 6000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "package-management-example.html",
+        "id": "package-management-example",
+        "class": "step",
+        "data": {
+            "x": 7000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "how-to-start.html",
+        "id": "how-to-start",
+        "class": "step",
+        "data": {
+            "x": 8000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "install-nodejs.html",
+        "id": "install-nodejs",
+        "class": "step",
+        "data": {
+            "x": 9000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "install-git.html",
+        "id": "install-git",
+        "class": "step",
+        "data": {
+            "x": 10000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "optionally-install-ruby.html",
+        "id": "optionally-install-ruby",
+        "class": "step",
+        "data": {
+            "x": 11000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "optionally-install-compass.html",
+        "id": "optionally-install-compass",
+        "class": "step",
+        "data": {
+            "x": 12000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "install-yeoman.html",
+        "id": "install-yeoman",
+        "class": "step",
+        "data": {
+            "x": 13000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "install-generators.html",
+        "id": "install-generators",
+        "class": "step",
+        "data": {
+            "x": 14000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "how-to-use.html",
+        "id": "how-to-use",
+        "class": "step",
+        "data": {
+            "x": 15000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "use-generator-webapp.html",
+        "id": "use-generator-webapp",
+        "class": "step",
+        "data": {
+            "x": 16000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "use-generator-angular.html",
+        "id": "use-generator-angular",
+        "class": "step",
+        "data": {
+            "x": 17000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "clone-a-repository.html",
+        "id": "clone-a-repository",
+        "class": "step",
+        "data": {
+            "x": 18000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "customize-automation-tasks.html",
+        "id": "customize-automation-tasks",
+        "class": "step",
+        "data": {
+            "x": 19000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "get-generators.html",
+        "id": "get-generators",
+        "class": "step",
+        "data": {
+            "x": 20000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "write-your-own-generator.html",
+        "id": "write-your-own-generator",
+        "class": "step",
+        "data": {
+            "x": 21000,
+            "y": 0,
+            "scale": 1
+        }
+    }
+]
