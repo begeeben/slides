@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=1024" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <title>manage-frontend-project-with-yeoman</title>
+    <title>Manage Front End Project With Yeoman</title>
 
     <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
 
@@ -24,6 +24,14 @@
 <div id="impress" class="steps">
 </div>
 
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
 
   <script src="bower_components/jquery/jquery.js"></script>
   <script src="bower_components/handlebars/handlebars.js"></script>
