@@ -63,7 +63,7 @@ module.exports = function (grunt) {
                         '.htaccess',
                         'steps/*',
                         // 'bower_components/**/*',
-                        // 'images/{,*/}*.{gif,webp}',
+                        'images/{,*/}*.{gif,webp,png}',
                         // 'styles/fonts/*'
                     ]
                 }, {
