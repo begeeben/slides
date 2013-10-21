@@ -40,6 +40,16 @@
         }
     },
     {
+        "uri": "scaffolding-example-folder-structure.html",
+        "id": "scaffolding-example-folder-structure",
+        "class": "step",
+        "data": {
+            "x": 3000,
+            "y": 500,
+            "scale": 1
+        }
+    },
+    {
         "uri": "automation.html",
         "id": "automation",
         "class": "step",
@@ -56,6 +66,26 @@
         "data": {
             "x": 5000,
             "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "automation-example-2.html",
+        "id": "automation-example-2",
+        "class": "step",
+        "data": {
+            "x": 5000,
+            "y": 630,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "automation-example-folder-structure.html",
+        "id": "automation-example-folder-structure",
+        "class": "step",
+        "data": {
+            "x": 5000,
+            "y": 1200,
             "scale": 1
         }
     },
@@ -170,6 +200,16 @@
         }
     },
     {
+        "uri": "webapp-short-intro.html",
+        "id": "webapp-short-intro",
+        "class": "step",
+        "data": {
+            "x": 16000,
+            "y": 550,
+            "scale": 1
+        }
+    },
+    {
         "uri": "use-generator-angular.html",
         "id": "use-generator-angular",
         "class": "step",
@@ -180,11 +220,21 @@
         }
     },
     {
+        "uri": "get-generators.html",
+        "id": "get-generators",
+        "class": "step",
+        "data": {
+            "x": 18000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
         "uri": "clone-a-repository.html",
         "id": "clone-a-repository",
         "class": "step",
         "data": {
-            "x": 18000,
+            "x": 19000,
             "y": 0,
             "scale": 1
         }
@@ -194,18 +244,18 @@
         "id": "customize-automation-tasks",
         "class": "step",
         "data": {
-            "x": 19000,
+            "x": 20000,
             "y": 0,
             "scale": 1
         }
     },
     {
-        "uri": "get-generators.html",
-        "id": "get-generators",
+        "uri": "common-grunt-tasks.html",
+        "id": "common-grunt-tasks",
         "class": "step",
         "data": {
             "x": 20000,
-            "y": 0,
+            "y": 500,
             "scale": 1
         }
     },
@@ -215,6 +265,16 @@
         "class": "step",
         "data": {
             "x": 21000,
+            "y": 0,
+            "scale": 1
+        }
+    },
+    {
+        "uri": "trouble-shooting.html",
+        "id": "trouble-shooting",
+        "class": "step",
+        "data": {
+            "x": 22000,
             "y": 0,
             "scale": 1
         }
